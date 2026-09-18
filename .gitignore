@@ -1,0 +1,45 @@
+Ecoffe_Data/
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+
+# Datasets & Model Weights (large files)
+*.pt
+*.pth
+*.onnx
+*.h5
+*.weights
+*.zip
+*.tar.gz
+data/raw/
+data/processed/
+
+# VS Code & OS generated files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
+# Conda / Virtual Environments
+ecoffee_env/
+.venv/
+venv/
+env/
+ENV/
+# Environments
+
+env.bak/
+venv.bak/
+
+# Environment variable files (secrets/keys)
+.env
+*.env
+
+# Exported conda specs (if local)
+.conda/
