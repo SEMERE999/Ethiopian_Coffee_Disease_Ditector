@@ -1,45 +1,49 @@
-Ecoffe_Data/
-
-
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+.env
 
+# Training artifacts (regenerate locally; too large for git)
+backend/artifacts/
+backend/logs/
+backend/final_model/**/*.keras
+backend/final_model/**/*.json
+!backend/final_model/**/.gitkeep
 
+# Datasets (do not commit raw imagery)
+backend/datasets/**/*.jpg
+backend/datasets/**/*.jpeg
+backend/datasets/**/*.png
 
-# Datasets & Model Weights (large files)
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Frontend
+node_modules/
+
+# Additional datasets and trained model files
+datasets/
+data/
+*.keras
+*.h5
 *.pt
 *.pth
 *.onnx
-*.h5
-*.weights
-*.zip
-*.tar.gz
-data/raw/
-data/processed/
+*.tflite
+*.joblib
 
-# VS Code & OS generated files
-.vscode/
-.DS_Store
-Thumbs.db
+# Checkpoints and experiment outputs
+checkpoints/
+runs/
+wandb/
+*.log
 
-# Environment variables / secrets
-.env
-# Conda / Virtual Environments
-ecoffee_env/
-.venv/
-venv/
-env/
-ENV/
-# Environments
-
-env.bak/
-venv.bak/
-
-# Environment variable files (secrets/keys)
-.env
-*.env
-
-# Exported conda specs (if local)
-.conda/
+# Local environment configuration
+.env.*
+!.env.example

@@ -1,0 +1,16 @@
+# --- Core ML pipeline (unchanged) ---
+numpy
+pandas
+matplotlib
+scikit-learn
+tensorflow-cpu
+pillow
+setuptools
+
+# --- Web API layer ---
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+
+-e .
