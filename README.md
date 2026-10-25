@@ -32,6 +32,7 @@ Due to GitHub's storage constraints, the large image dataset and the compiled `.
 | **Environment** | Linux/Ubuntu, VS Code | Primary development and testing environment. |
 
 ## Project Structure
+```text
 .
 ├── backend/
 │   ├── app/                       # FastAPI web service layer
@@ -47,6 +48,4 @@ Due to GitHub's storage constraints, the large image dataset and the compiled `.
 │   ├── sw.js, manifest.json       # Service worker for offline caching
 │   └── static/                    # CSS, JS, Locales, and Icons
 └── README.md
-
-
-pass by a local agronomist or cooperative extension officer per language.
+```
