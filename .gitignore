@@ -8,12 +8,12 @@ venv/
 .env
 
 # Training artifacts (regenerate locally; too large for git)
+backend/datasets/
+backend/final_model/
 backend/artifacts/
 backend/logs/
-backend/final_model/**/*.keras
-backend/final_model/**/*.json
-!backend/final_model/**/.gitkeep
-
+__pycache__/
+venv/
 # Datasets (do not commit raw imagery)
 backend/datasets/**/*.jpg
 backend/datasets/**/*.jpeg
