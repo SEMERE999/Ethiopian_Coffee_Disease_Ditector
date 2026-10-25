@@ -14,8 +14,8 @@ The pipeline is split into two sequential machine learning models to ensure high
 
 Due to GitHub's storage constraints, the large image dataset and the compiled `.keras` model artifacts are hosted externally on Google Drive. 
 
-*  **[Raw Image Dataset]**(https://drive.google.com/drive/folders/1WnRrSZr5C9W83dNwELUjP3dMsjv6baQl)
-*  **[Trained Models & Output Artifacts]**(https://drive.google.com/drive/folders/1grp9qceE-Z9jRM9cm-uojaL02RfO-JzA)
+*  **[Raw Image Dataset]**(https://drive.google.com/drive/folders/1WnRrSZr5C9W83dNwELUjP3dMsjv6baQl?usp=sharing)
+*  **[Trained Models & Output Artifacts]**(https://drive.google.com/drive/folders/1grp9qceE-Z9jRM9cm-uojaL02RfO-JzA?usp=sharing)
 
 **System Architecture & Orchestration:**
 * **Dataset:** The raw image dataset is structured into `detector/` (coffee vs. non-coffee) and `disease/` (the 4 disease classes) directories.
